@@ -1,5 +1,5 @@
 package headerFirst.designPattern;
-import com.headeFirst.designPattern.Duck;
+import com.headeFirst.designPattern.*;
 import org.junit.Test;
 
 public class Tester {
@@ -9,8 +9,19 @@ public class Tester {
      * */
     @Test
     public void DuckTester(){
-        Duck duck = new Duck();
+        MallarDuck duck = new MallarDuck();
         duck.quack();
+        duck.swim();
+        duck.display();
+        duck.performFly();
 
+    }
+    @Test
+    public void RedHeaderDuckTest(){
+        RedHeaderDuck duck = new RedHeaderDuck();
+        duck.quack();
+        duck.swim();
+        duck.display();
+        duck.performFly();
     }
 }
