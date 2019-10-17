@@ -9,6 +9,29 @@
 	</properties>
 	
   <dependencies>
+	 <!-- spring boot-->
+	  <!-- 指定Spring Boot的版本 2.0.4.RELEASE -->
+	  2 <parent>
+	  3     <groupId>org.springframework.boot</groupId>
+	  4     <artifactId>spring-boot-starter-parent</artifactId>
+	  5     <version>2.0.4.RELEASE</version>
+	  6 </parent>
+	  7
+	  8 <dependencies>
+	  9    <!-- 导入Spirng Boot  web 所需的jar包 -->
+	  10     <dependency>
+	  11         <groupId>org.springframework.boot</groupId>
+	  12         <artifactId>spring-boot-starter-web</artifactId>
+	  13     </dependency>
+	  14 </dependencies>
+	  <!-- logger-->
+	  <dependency>
+		  <groupId>org.projectlombok</groupId>
+		  <artifactId>lombok</artifactId>
+		  <version>1.16.20</version>
+		  <scope>provided</scope>
+	  </dependency>
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
