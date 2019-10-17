@@ -1,5 +1,5 @@
 package headerFirst.designPattern;
-
+import com.headeFirst.designPattern.Duck;
 import org.junit.Test;
 
 public class Tester {
@@ -9,7 +9,8 @@ public class Tester {
      * */
     @Test
     public void DuckTester(){
-     Duck duck = new Duck();
+        Duck duck = new Duck();
+        duck.quack();
 
     }
 }
