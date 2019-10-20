@@ -16,6 +16,10 @@ public class Tester {
         duck.performFly();
 
     }
+    /**
+     * gaol:test red header duck test
+     * red head duck
+     * */
     @Test
     public void RedHeaderDuckTest(){
         RedHeaderDuck duck = new RedHeaderDuck();
