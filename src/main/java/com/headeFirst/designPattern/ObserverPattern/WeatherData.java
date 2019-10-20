@@ -6,7 +6,7 @@ public class WeatherData implements Subject{
     private  float humidity;
     private  float pressure;
 
-    public void WeatherData(){
+    public  WeatherData(){
         observes = new ArrayList();
     }
     /*

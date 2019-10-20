@@ -17,7 +17,7 @@ public class CurrentConditionsDisplay implements Observer,DisplayElement {
     }
     //display currency weater value
     public void display(){
-        System.out.println("current"+temp+humidity);
+        System.out.println("current"+temp+"_"+humidity);
         System.out.println("CurrentConditionsDisplay");
     }
 }
