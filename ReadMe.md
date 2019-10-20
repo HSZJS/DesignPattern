@@ -8,5 +8,5 @@
 设计模式也可以把你的思考架构的层次提高到模式层面，而不是仅仅停留在琐碎的对象上。
 4.how to use desigin pattern?
 all of use have been using lib and frameword that other have designed and implemented.
-
+5.松耦合的设计之所以能让我们简历有弹性的OO系统，能够应对变化,是因为对象之间的互相以来降到了最低。
 
