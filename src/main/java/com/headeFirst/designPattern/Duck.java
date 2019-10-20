@@ -14,6 +14,7 @@ public abstract class Duck {
     //swim
     public void swim(){ System.out.println("display..."); }
     //display
+    public abstract void display();
     //fly
     public void performFly(){
         flyBehavior.fly();

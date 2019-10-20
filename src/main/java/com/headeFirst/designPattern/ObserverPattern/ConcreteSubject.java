@@ -1,6 +1,6 @@
 package com.headeFirst.designPattern.ObserverPattern;
 
-public class ConcreteSubject implements Subject {
+public abstract class ConcreteSubject implements Subject {
     /**
      * registerObserver(){...}
      * removeObjserver(){...}
