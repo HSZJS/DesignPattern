@@ -1,6 +1,6 @@
 package com.headeFirst.designPattern.ObserverPattern;
 
-public class WeatherData {
+public class WeatherData implements Subject{
     /*
     * 温度
     * */
@@ -37,4 +37,19 @@ public class WeatherData {
          * 3.至少，这里开起来像是一个统一的接口，布告板的方法名称都是update()，参数都是温度、气压、湿度
          * */
     }
+    /**
+     * 重构-refactor
+     * 1.extend subject
+     * 2.implement method of subject
+     * **/
+    public void registerObserver(){
+        System.out.println("registerObserver");
+    }
+    public void removeObserver(){
+        System.out.println("removeObserver");
+    }
+    public void notifyObserver(){
+        System.out.println("notifyObserver");
+    }
+
 }
