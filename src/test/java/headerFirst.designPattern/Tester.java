@@ -76,7 +76,7 @@ public class Tester {
         beverage1 = new Mocha(beverage1);
         System.out.println(beverage1.getDescription()+"$"+beverage1.cost());
         /**
-         *
+         *继承也属于扩展的形式之一，但不见的是达到弹性设计的最好方式
          * */
     }
 }
